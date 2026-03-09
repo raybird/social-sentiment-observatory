@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-size="medium">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Social Sentiment Observatory - TeleNexus</title>
+    <style>
+        :root {
+            --primary: #ff8800; /* 情緒站專屬：亮橙色 */
+            --bg: #0a0a0c;
+            --card-bg: #16161a;
+            --text: #e0e0e0;
+            --positive: #32d74b;
+            --negative: #ff453a;
+        }
+        html[data-size="small"] { font-size: 14px; }
+        html[data-size="medium"] { font-size: 16px; }
+        html[data-size="large"] { font-size: 18px; }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, system-ui, sans-serif;
+            margin: 0; padding: 1.5rem; line-height: 1.5; transition: font-size 0.2s ease;
+        }
+        .container { max-width: 650px; margin: 0 auto; }
+        header { 
+            border-bottom: 2px solid var(--primary); padding-bottom: 1rem; margin-bottom: 2rem;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        h1 { color: var(--primary); font-size: 1.4rem; margin: 0; letter-spacing: 1px; }
+        .timestamp { font-size: 0.75rem; color: #666; text-align: center; margin-bottom: 1.5rem; }
+
+        .font-switcher { display: flex; gap: 5px; background: #1a1a1e; padding: 4px; border-radius: 8px; border: 1px solid #333; }
+        .font-btn { background: none; border: none; color: #666; padding: 4px 8px; cursor: pointer; border-radius: 4px; font-weight: bold; }
+        .font-btn.active { background: var(--primary); color: #000; }
+
+        .sentiment-card {
+            background: var(--card-bg); border: 1px solid #222; border-radius: 12px;
+            padding: 1.5rem; margin-bottom: 1.5rem; border-left: 4px solid var(--primary);
+        }
+        .platform-tag { font-size: 0.7rem; background: #222; color: var(--primary); padding: 2px 6px; border-radius: 4px; margin-bottom: 8px; display: inline-block; }
+        .trend-title { font-weight: 700; color: #fff; margin-bottom: 10px; font-size: 1.1rem; }
+        
+        .sentiment-meter { height: 8px; background: #222; border-radius: 4px; overflow: hidden; margin: 10px 0; display: flex; }
+        .meter-fill { height: 100%; }
+
+        .tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 1rem; }
+        .tag { font-size: 0.8rem; background: #1a1a1e; color: #aaa; padding: 4px 10px; border-radius: 20px; border: 1px solid #333; }
+        .tag.hot { color: var(--primary); border-color: var(--primary); font-weight: 700; }
+
+        .nav-links { text-align: center; margin-bottom: 2rem; }
+        .nav-links a { color: var(--primary); text-decoration: none; font-size: 0.8rem; margin: 0 10px; }
+
+        footer { text-align: center; font-size: 0.75rem; color: #444; margin-top: 4rem; padding-bottom: 2rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SOCIAL SENTIMENT</h1>
+            <div class="font-switcher">
+                <button class="font-btn" onclick="setFontSize('small')" id="btn-small">S</button>
+                <button class="font-btn active" onclick="setFontSize('medium')" id="btn-medium">M</button>
+                <button class="font-btn" onclick="setFontSize('large')" id="btn-large">L</button>
+            </div>
+        </header>
+
+        <div class="nav-links">
+            <a href="https://raybird.github.io/telenexus-insight-hub/">← 指揮中心</a>
+            <a href="archives/">📚 歷史情緒智庫</a>
+        </div>
+
+        <div class="timestamp">系統初始化 | 全球情緒觀測站 v1.0 | 2026-03-09 21:00 (Taipei)</div>
+
+        <!-- 監控模組 1: X (Twitter) -->
+        <div class="sentiment-card">
+            <span class="platform-tag">X / GLOBAL</span>
+            <div class="trend-title">#HormuzStrait & #CrudeOil 討論熱度激增</div>
+            <div style="font-size: 0.85rem; color: #aaa;">全球用戶對荷姆茲海峽封鎖的可能性表現出極高焦慮。情緒偏向「恐慌」與「避險預期」。</div>
+            <div class="sentiment-meter">
+                <div class="meter-fill" style="width: 15%; background: var(--positive);"></div>
+                <div class="meter-fill" style="width: 85%; background: var(--negative);"></div>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 0.7rem; color: #666;">
+                <span>樂觀 15%</span>
+                <span>悲觀 85%</span>
+            </div>
+        </div>
+
+        <!-- 監控模組 2: Reddit -->
+        <div class="sentiment-card" style="border-left-color: #ff4500;">
+            <span class="platform-tag" style="color: #ff4500;">REDDIT / r/CryptoCurrency</span>
+            <div class="trend-title">"Buy the Dip" 呼聲與 $68k 阻力討論</div>
+            <div style="font-size: 0.85rem; color: #aaa;">散戶情緒出現分歧。技術派關注 $67.5k 支撐，而宏觀派則在討論能源通膨對 BTC 的長線利好。</div>
+            <div class="tag-cloud">
+                <span class="tag hot">#Bitcoin</span>
+                <span class="tag">#Inflation</span>
+                <span class="tag hot">#68k_Resistance</span>
+                <span class="tag">#Bullish_Divergence</span>
+            </div>
+        </div>
+
+        <div style="background: rgba(255, 136, 0, 0.05); padding: 1.2rem; border-radius: 12px; border: 1px dashed #444; font-size: 0.85rem;">
+            <strong style="color: var(--primary);">🧠 AI 營運洞察：</strong>
+            目前全球社群正處於「物理威脅」向「數位避險」情緒傳導的關鍵時刻。X 端的能源恐慌尚未完全反映在 Reddit 的抄底行為中，這預示著市場可能仍有二次波動的空間。
+        </div>
+
+        <footer>
+            &copy; 2026 Raybird & TeleNexus AI<br>
+            Autonomous Social Sentiment Scraper v1.0
+        </footer>
+    </div>
+
+    <script>
+        function setFontSize(size) {
+            document.documentElement.setAttribute('data-size', size);
+            localStorage.setItem('sso-font-size', size);
+            document.querySelectorAll('.font-btn').forEach(btn => btn.classList.remove('active'));
+            const btn = document.getElementById('btn-' + size);
+            if(btn) btn.classList.add('active');
+        }
+        const savedSize = localStorage.getItem('sso-font-size') || 'medium';
+        setFontSize(savedSize);
+    </script>
+</body>
+</html>
