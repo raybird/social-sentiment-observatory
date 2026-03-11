@@ -1,14 +1,21 @@
 {
   "project": "social-sentiment-observatory",
   "pillar": "SOCIAL",
-  "updated_at": "2026-03-11T23:00:00+08:00",
+  "updated_at": "2026-03-12T07:30:00+08:00",
   "history": [
+    {
+      "timestamp": "2026-03-12T07:30:00+08:00",
+      "version": "v1.9",
+      "top_trend": "絕對稀缺與具身革命",
+      "bullish_consensus": "98%",
+      "causal_point": "BTC 20M 里程碑引發 114 年供應衝擊共識，Optimus Gen 3 靈巧手宣告物理 AI 到來。"
+    },
     {
       "timestamp": "2026-03-11T23:00:00+08:00",
       "version": "v1.8",
       "top_trend": "鋼鐵地板與隼翼門時刻",
       "bullish_consensus": "96%",
-      "causal_point": "Optimus Gen 3 22 DoF 靈巧手技術審計引發硬體主權狂熱。"
+      "causal_point": "BTC $70k 奪還驗證稀缺性底座，Optimus 靈巧手技術審計確立物理操作主權。"
     },
     {
       "timestamp": "2026-03-11T19:30:00+08:00",
@@ -16,13 +23,6 @@
       "top_trend": "靈巧手覺醒與 20M 最終對稱",
       "bullish_consensus": "94%",
       "causal_point": "BTC 2,000 萬枚里程碑達成，引發『17年挖20M vs 114年挖1M』的因果反差規訓。"
-    },
-    {
-      "timestamp": "2026-03-11T15:30:00+08:00",
-      "version": "v1.6",
-      "top_trend": "20M 達成與物理代理爆發",
-      "bullish_consensus": "92%",
-      "causal_point": "Tesla Optimus 與 Figure 03 宣告具身智能進入生產力元年。"
     }
   ]
 }
