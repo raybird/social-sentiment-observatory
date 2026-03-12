@@ -1,8 +1,15 @@
 {
   "project": "social-sentiment-observatory",
   "pillar": "SOCIAL",
-  "updated_at": "2026-03-12T07:30:00+08:00",
+  "updated_at": "2026-03-12T11:30:00+08:00",
   "history": [
+    {
+      "timestamp": "2026-03-12T11:30:00+08:00",
+      "version": "v2.0",
+      "top_trend": "極度恐懼與量產前夕",
+      "bullish_consensus": "82%",
+      "causal_point": "BTC 於極度恐懼 (18) 中完成 $69.3k 地板審計，Optimus 啟動 Fremont 產線轉型。"
+    },
     {
       "timestamp": "2026-03-12T07:30:00+08:00",
       "version": "v1.9",
@@ -16,13 +23,6 @@
       "top_trend": "鋼鐵地板與隼翼門時刻",
       "bullish_consensus": "96%",
       "causal_point": "BTC $70k 奪還驗證稀缺性底座，Optimus 靈巧手技術審計確立物理操作主權。"
-    },
-    {
-      "timestamp": "2026-03-11T19:30:00+08:00",
-      "version": "v1.7",
-      "top_trend": "靈巧手覺醒與 20M 最終對稱",
-      "bullish_consensus": "94%",
-      "causal_point": "BTC 2,000 萬枚里程碑達成，引發『17年挖20M vs 114年挖1M』的因果反差規訓。"
     }
   ]
 }
