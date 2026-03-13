@@ -1,28 +1,21 @@
 {
   "project": "social-sentiment-observatory",
   "pillar": "SOCIAL",
-  "updated_at": "2026-03-12T11:30:00+08:00",
+  "updated_at": "2026-03-13T19:00:00+08:00",
   "history": [
+    {
+      "timestamp": "2026-03-13T19:00:00+08:00",
+      "version": "v2.1",
+      "top_trend": "ATH 狂熱與物理 AI 落地",
+      "bullish_consensus": "92%",
+      "causal_point": "BTC 站穩 $72k 觸發全網 FOMO 規訓。Optimus Gen 3 亮相上海與 Fremont 產線轉型確立具身智能工業相位。"
+    },
     {
       "timestamp": "2026-03-12T11:30:00+08:00",
       "version": "v2.0",
       "top_trend": "極度恐懼與量產前夕",
       "bullish_consensus": "82%",
       "causal_point": "BTC 於極度恐懼 (18) 中完成 $69.3k 地板審計，Optimus 啟動 Fremont 產線轉型。"
-    },
-    {
-      "timestamp": "2026-03-12T07:30:00+08:00",
-      "version": "v1.9",
-      "top_trend": "絕對稀缺與具身革命",
-      "bullish_consensus": "98%",
-      "causal_point": "BTC 20M 里程碑引發 114 年供應衝擊共識，Optimus Gen 3 靈巧手宣告物理 AI 到來。"
-    },
-    {
-      "timestamp": "2026-03-11T23:00:00+08:00",
-      "version": "v1.8",
-      "top_trend": "鋼鐵地板與隼翼門時刻",
-      "bullish_consensus": "96%",
-      "causal_point": "BTC $70k 奪還驗證稀缺性底座，Optimus 靈巧手技術審計確立物理操作主權。"
     }
   ]
 }

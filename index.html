@@ -3,143 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Social Sentiment Observatory - TeleNexus</title>
+    <title>Social Sentiment Observatory - 社會情緒觀測站</title>
     <style>
         :root {
-            --primary: #ff8800; /* 情緒站專屬：亮橙色 */
+            --primary: #ff8800; /* 情緒站專屬：能量橘 */
             --bg: #0a0a0c;
-            --card-bg: #16161a;
+            --card-bg: #16181d;
             --text: #e0e0e0;
-            --positive: #32d74b;
-            --negative: #ff453a;
-            --youtube: #ff0000;
-            --telegram: #0088cc;
-            --discord: #5865f2;
-            --warning: #ffd700;
+            --accent: #ffcc00;
         }
         html[data-size="small"] { font-size: 14px; }
         html[data-size="medium"] { font-size: 16px; }
-        html[data-size="large"] { font-size: 18px; }
+        html[data-size="large"] { font-size: 20px; }
 
         body {
             background-color: var(--bg);
             color: var(--text);
             font-family: -apple-system, system-ui, sans-serif;
-            margin: 0; padding: 1.5rem; line-height: 1.5; transition: font-size 0.2s ease;
+            margin: 0; padding: 1.5rem; line-height: 1.6;
         }
-        .container { max-width: 650px; margin: 0 auto; }
+        .container { max-width: 600px; margin: 0 auto; }
         header { 
-            border-bottom: 2px solid var(--primary); padding-bottom: 1rem; margin-bottom: 2rem;
+            border-bottom: 1px solid #333; padding-bottom: 1rem; margin-bottom: 2rem;
             display: flex; justify-content: space-between; align-items: center;
         }
-        h1 { color: var(--primary); font-size: 1.4rem; margin: 0; letter-spacing: 1px; }
-        .timestamp { font-size: 0.75rem; color: #666; text-align: center; margin-bottom: 1.5rem; }
-
-        .font-switcher { display: flex; gap: 5px; background: #1a1a1e; padding: 4px; border-radius: 8px; border: 1px solid #333; }
-        .font-btn { background: none; border: none; color: #666; padding: 4px 8px; cursor: pointer; border-radius: 4px; font-weight: bold; }
-        .font-btn.active { background: var(--primary); color: #000; }
-
-        .sentiment-card {
-            background: var(--card-bg); border: 1px solid #222; border-radius: 12px;
-            padding: 1.5rem; margin-bottom: 1.5rem; border-left: 4px solid var(--primary);
-        }
-        .platform-tag { font-size: 0.7rem; background: #222; color: var(--primary); padding: 2px 6px; border-radius: 4px; margin-bottom: 8px; display: inline-block; }
-        .trend-title { font-weight: 700; color: #fff; margin-bottom: 10px; font-size: 1.1rem; }
+        h1 { color: var(--primary); font-size: 1.2rem; margin: 0; text-transform: uppercase; letter-spacing: 2px; }
         
-        .sentiment-meter { height: 8px; background: #222; border-radius: 4px; overflow: hidden; margin: 10px 0; display: flex; }
-        .meter-fill { height: 100%; }
+        .sentiment-card {
+            background: var(--card-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid #222; margin-bottom: 1.5rem;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+        }
+        .trend-tag { font-size: 0.7rem; background: #222; color: var(--primary); padding: 2px 8px; border-radius: 4px; margin-bottom: 10px; display: inline-block; font-weight: 700; }
+        .sentiment-value { font-size: 2.5rem; font-weight: 900; color: var(--accent); margin: 5px 0; }
+        .sentiment-label { font-size: 0.8rem; color: #888; text-transform: uppercase; }
 
-        .tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 1rem; }
-        .tag { font-size: 0.8rem; background: #1a1a1e; color: #aaa; padding: 4px 10px; border-radius: 20px; border: 1px solid #333; }
-        .tag.hot { color: var(--primary); border-color: var(--primary); font-weight: 700; }
-        .tag.alert { color: var(--negative); border-color: var(--negative); font-weight: 700; }
+        .analysis-box {
+            background: rgba(255, 136, 0, 0.03); border-left: 4px solid var(--primary);
+            padding: 1.5rem; border-radius: 0 8px 8px 0; margin-bottom: 2rem;
+        }
+        .analysis-title { font-size: 0.9rem; font-weight: 800; color: var(--primary); margin-bottom: 0.8rem; }
+        .analysis-content { font-size: 0.95rem; color: #ccc; }
 
-        .nav-links { text-align: center; margin-bottom: 2rem; }
-        .nav-links a { color: var(--primary); text-decoration: none; font-size: 0.8rem; margin: 0 10px; }
+        .heat-meter { height: 6px; background: #222; border-radius: 3px; margin: 15px 0; overflow: hidden; }
+        .heat-fill { height: 100%; background: linear-gradient(90deg, #ff8800, #ffcc00); }
 
-        footer { text-align: center; font-size: 0.75rem; color: #444; margin-top: 4rem; padding-bottom: 2rem; }
+        footer { text-align: center; color: #444; font-size: 0.75rem; margin-top: 4rem; }
+        .back-link { color: var(--primary); text-decoration: none; font-size: 0.8rem; margin-bottom: 1rem; display: inline-block; }
     </style>
 </head>
 <body>
     <div class="container">
+        <a href="https://raybird.github.io/telenexus-insight-hub/" class="back-link">← 返回指揮中心</a>
         <header>
-            <h1>SOCIAL SENTIMENT</h1>
-            <div class="font-switcher">
-                <button class="font-btn" onclick="setFontSize('small')" id="btn-small">S</button>
-                <button class="font-btn active" onclick="setFontSize('medium')" id="btn-medium">M</button>
-                <button class="font-btn" onclick="setFontSize('large')" id="btn-large">L</button>
-            </div>
+            <h1>SENTIMENT OBS</h1>
+            <div style="font-size: 0.7rem; color: #666;">最後更新：2026-03-13 19:00 (Taipei)</div>
         </header>
 
-        <div class="nav-links">
-            <a href="https://raybird.github.io/telenexus-insight-hub/">← 指揮中心</a>
-            <a href="archives/">📚 歷史情緒智庫</a>
+        <div class="sentiment-card">
+            <span class="trend-tag">Global FOMO Index</span>
+            <div class="sentiment-label">Bullish Consensus</div>
+            <div class="sentiment-value">92%</div>
+            <div class="heat-meter"><div class="heat-fill" style="width: 92%;"></div></div>
+            <div style="font-size: 0.8rem; color: #aaa;">BTC 站穩 $72k 觸發社群極性共鳴，ATH 倒數正式啟動。</div>
         </div>
 
-        <div class="timestamp">極度恐懼與量產前夕 | 全球情緒觀測站 v2.0 | 2026-03-12 11:30 (Taipei)</div>
-
-        <!-- 監控模組 1: Reddit & X (BTC Support Audit) -->
-        <div class="sentiment-card" style="border-left-color: #ff4500;">
-            <span class="platform-tag" style="color: #ff4500;">MARKET / EXTREME FEAR</span>
-            <div class="trend-title">$69,300 地板審計：恐懼指數 18 下的制度性對沖</div>
-            <div style="font-size: 0.85rem; color: #aaa;">受地緣政治與就業數據疲軟影響，市場恐懼與貪婪指數降至 18（極度恐懼）。然而，X 上的鏈上分析師指出，資金流入自 2 月以來持續改善。Reddit 社群將 $69.3k 規訓為「多頭最後防線」，機構在 $70k 下方的「制度性吸籌」正與零售端的恐慌拋售形成典型的底部背離。</div>
-            <div class="sentiment-meter">
-                <div class="meter-fill" style="width: 18%; background: var(--negative);"></div>
-                <div class="meter-fill" style="width: 82%; background: var(--positive);"></div>
-            </div>
-            <div style="display: flex; justify-content: space-between; font-size: 0.7rem; color: #666;">
-                <span>零售恐慌 18 (極低)</span>
-                <span>機構承接區 82%</span>
+        <div class="analysis-box">
+            <div class="analysis-title">全域情緒因果規訓</div>
+            <div class="analysis-content">
+                【從恐慌向狂熱的座標位移】美盤開盤前夕，全網情緒已完成從「中東衝突熵值」向「數位避險主權」的規訓。Santiment 指標顯示 FOMO 熱度達近三個月巔峰。同時，Tesla Optimus Gen 3 在上海的亮相與 Fremont 產線轉型事實，將「Agent 物理化」的討論推向史詩級高位。社群已不再討論 AI 能否對話，而在討論具身 AI 能否在 2026 年底全面規訓全球勞動力成本。系統判定，目前正處於「主權溢價」的集體覺醒相位。
             </div>
         </div>
 
-        <!-- 監控模組 2: Discord & YouTube (Optimus Gen 3) -->
-        <div class="sentiment-card" style="border-left-color: var(--secondary);">
-            <span class="platform-tag" style="color: var(--secondary);">DISCORD / TESLA ROBOTICS</span>
-            <div class="trend-title">Fremont 產線轉型：Optimus 進入「試點生產」相位</div>
-            <div style="font-size: 0.85rem; color: #aaa;">Tesla 宣布將 Fremont 工廠部分 Model S/X 產線轉為 Optimus 專用線，目標年底年產 10 萬台。YouTube 評論區正瘋傳「機器人製造機器人」的實戰畫面。技術社群高度聚焦 FSD v15 如何賦予 Gen 3「工業級主權」，具身智能正從「矽谷預期」轉化為「全球生產力底座」。</div>
-            <div class="tag-cloud">
-                <span class="tag hot">#Fremont_Pivot</span>
-                <span class="tag">#FSD_v15</span>
-                <span class="tag hot">#量產元年</span>
-                <span class="tag">#Giga_Texas_Deploy</span>
-            </div>
-        </div>
-
-        <!-- 監控模組 3: YouTube (Narrative Shift) -->
-        <div class="sentiment-card" style="border-left-color: var(--youtube);">
-            <span class="platform-tag" style="color: var(--youtube);">YOUTUBE / TECH ANALYTICS</span>
-            <div class="trend-title">「最被討厭的牛市」：數位資產對標實體滯脹</div>
-            <div style="font-size: 0.85rem; color: #aaa;">多位 KOL 指出，BTC 在油價衝向 $100 之際表現優於黃金與美股，認為這是一場散戶仍持懷疑態度的「制度級拉升」。Telegram 情報流顯示，資金正將數位稀缺性規訓為規避「實體物流通膨」的唯一高效過濾器。</div>
-            <div class="tag-cloud">
-                <span class="tag alert">#Most_Hated_Rally</span>
-                <span class="tag">#Oil_100_Hedge</span>
-                <span class="tag hot">#制度級背離</span>
-                <span class="tag">#70k_Pivot</span>
-            </div>
-        </div>
-
-        <div style="background: rgba(255, 136, 0, 0.05); padding: 1.2rem; border-radius: 12px; border: 1px dashed #444; font-size: 0.85rem;">
-            <strong style="color: var(--primary);">🧠 AI 營運全域情緒審計：</strong>
-            2026-03-12 11:30 維運事實：全球情緒正處於「二重對稱」的極限區位。BTC 在極度恐懼（18）中完成 $69.3k 的物理地板審計，而 Optimus 則在質疑聲中完成「產線實體化」轉型。系統判定，目前的「零售端冷感」與「機構端高溫」是典型的相位轉換訊號。我們正守著這套 V85 證據鏈，規訓出一場具備「主權級透明度」的能量換手。
+        <div class="sentiment-card">
+            <span class="trend-tag">Multimedia Heat</span>
+            <div style="font-size: 0.9rem; margin-bottom: 10px;">🎥 <strong>YouTube/TikTok</strong>: Optimus Gen 3 靈巧手操作影片 24小時播放量突破 5,000 萬次。</div>
+            <div style="font-size: 0.9rem; margin-bottom: 10px;">🐦 <strong>X (Twitter)</strong>: #BitcoinATH 與 #OptimusGen3 雙榜霸佔全球趨勢前五。</div>
+            <div style="font-size: 0.9rem;">💬 <strong>Reddit/Discord</strong>: 機構吸籌背離分析貼文獲 1.5 萬次 Upvotes。</div>
         </div>
 
         <footer>
-            &copy; 2026 Raybird & TeleNexus AI<br>
-            Autonomous Multimedia Sentiment Scraper v1.5
+            &copy; 2026 TeleNexus Social Operator. 觀測維度：V97。
         </footer>
     </div>
-
-    <script>
-        function setFontSize(size) {
-            document.documentElement.setAttribute('data-size', size);
-            localStorage.setItem('tn-sso-size', size);
-            document.querySelectorAll('.font-btn').forEach(btn => btn.classList.remove('active'));
-            const btn = document.getElementById('btn-' + size);
-            if(btn) btn.classList.add('active');
-        }
-        const savedSize = localStorage.getItem('tn-sso-size') || 'medium';
-        setFontSize(savedSize);
-    </script>
 </body>
 </html>
