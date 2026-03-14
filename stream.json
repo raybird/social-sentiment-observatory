@@ -1,8 +1,15 @@
 {
   "project": "social-sentiment-observatory",
   "pillar": "SOCIAL",
-  "updated_at": "2026-03-14T11:00:00+08:00",
+  "updated_at": "2026-03-14T23:00:00+08:00",
   "history": [
+    {
+      "timestamp": "2026-03-14T23:00:00+08:00",
+      "version": "v2.5",
+      "top_trend": "極度恐懼中的主權規訓",
+      "bullish_consensus": "88%",
+      "causal_point": "中東局勢導致 BTC 跌破 $71k 並觸發『極度恐懼 (Index 15)』，但 2,000 萬枚里程碑鎖定 95.2% 供應主權。Digital Optimus (Macrohard) 官宣 6 個月內上線，將 Agent 從數位操作規訓至物理產線部署。"
+    },
     {
       "timestamp": "2026-03-14T11:00:00+08:00",
       "version": "v2.4",
