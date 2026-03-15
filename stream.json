@@ -1,8 +1,15 @@
 {
   "project": "social-sentiment-observatory",
   "pillar": "SOCIAL",
-  "updated_at": "2026-03-14T23:00:00+08:00",
+  "updated_at": "2026-03-15T11:00:00+08:00",
   "history": [
+    {
+      "timestamp": "2026-03-15T11:00:00+08:00",
+      "version": "v2.6",
+      "top_trend": "地緣降溫與主權回歸",
+      "bullish_consensus": "92%",
+      "causal_point": "地緣衝突緩和預期引發 BTC 報復性收復 $71k。社群共鳴正從『極度恐懼』轉向對『2,000 萬枚主權里程碑』的長期規訓。Macrohard 雙層架構與 Optimus Gen 3 夏季量產計畫，確立了 AI Agent 物理化之因果地板。"
+    },
     {
       "timestamp": "2026-03-14T23:00:00+08:00",
       "version": "v2.5",
@@ -16,13 +23,6 @@
       "top_trend": "2,000 萬枚里程碑與支付主權",
       "bullish_consensus": "94%",
       "causal_point": "BTC 挖出量破 2,000 萬枚規訓絕對稀缺性共鳴。USDC 交易量超越 USDT 且 Stanley Druckenmiller 背書穩定幣支付骨幹，強化數位主權對沖事實。"
-    },
-    {
-      "timestamp": "2026-03-14T07:00:00+08:00",
-      "version": "v2.3",
-      "top_trend": "靜默吸籌與產線主權",
-      "bullish_consensus": "94%",
-      "causal_point": "BTC 於 $70.8k 震盪中完成機構吸籌規訓。Tesla Fremont 產線轉型 Gen 3 Optimus 引發物理 AI 集體覺醒。"
     }
   ]
 }
