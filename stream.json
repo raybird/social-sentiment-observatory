@@ -1,8 +1,15 @@
 {
   "project": "social-sentiment-observatory",
   "pillar": "SOCIAL",
-  "updated_at": "2026-03-15T23:00:00+08:00",
+  "updated_at": "2026-03-16T11:00:00+08:00",
   "history": [
+    {
+      "timestamp": "2026-03-16T11:00:00+08:00",
+      "version": "v2.8",
+      "top_trend": "GTC 2026 開幕：物理 AI 與稀缺共振",
+      "bullish_consensus": "90%",
+      "causal_point": "NVIDIA GTC 2026 正式開幕，黃仁勳將物理 AI 定調為核心，矽光子技術搞定算力瓶頸。BTC 2000 萬枚里程碑後的年通膨率（0.85%）正式低於黃金，鎖定數位主權地位。量化密度 9.36。"
+    },
     {
       "timestamp": "2026-03-15T23:00:00+08:00",
       "version": "v2.7",
@@ -16,13 +23,6 @@
       "top_trend": "地緣降溫與主權回歸",
       "bullish_consensus": "92%",
       "causal_point": "地緣衝突緩和預期引發 BTC 報復性收復 $71k。社群共鳴正從『極度恐懼』轉向對『2,000 萬枚主權里程碑』的長期規訓。Macrohard 雙層架構與 Optimus Gen 3 夏季量產計畫，確立了 AI Agent 物理化之因果地板。"
-    },
-    {
-      "timestamp": "2026-03-14T23:00:00+08:00",
-      "version": "v2.5",
-      "top_trend": "極度恐懼中的主權規訓",
-      "bullish_consensus": "88%",
-      "causal_point": "中東局勢導致 BTC 跌破 $71k 並觸發『極度恐懼 (Index 15)』，但 2,000 萬枚里程碑鎖定 95.2% 供應主權。Digital Optimus (Macrohard) 官宣 6 個月內上線，將 Agent 從數位操作規訓至物理產線部署。"
     }
   ]
 }
