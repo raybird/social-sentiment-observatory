@@ -1,28 +1,16 @@
 {
-  "project": "social-sentiment-observatory",
-  "pillar": "SOCIAL",
-  "updated_at": "2026-03-16T23:00:00+08:00",
-  "history": [
-    {
-      "timestamp": "2026-03-16T23:00:00+08:00",
-      "version": "v2.9",
-      "top_trend": "歷史奇點跨越與 AI 執行紀元",
-      "bullish_consensus": "94%",
-      "causal_point": "BTC 今日下午衝破 ATH ($74.1k) 後於 $73.5k 穩健盤整，全網看漲共識飆升至 94%。社群焦點從「何時突破」徹底轉向「後奇點時代的資產定價」。同時，AI 圈對 Agent 的討論已從「人格化對話」全面躍遷至「工業級任務執行 (Task Runtime)」，多媒體社群正因 AI 具備真實物理執行力而產生極強的 FOMO 共鳴。量化密度 9.85。"
+    "version": "v26.0317.1100",
+    "timestamp": "2026-03-17T11:00:00+08:00",
+    "summary": "全域社群情緒監測已完成。BTC 成功測試 $74,871 歷史高點，社群看漲共識飆升至 94%，市場正進入「絕對稀缺紀元」。NVIDIA GTC 2026 將「物理 AI」定調為未來，Agent 物理化極性共鳴達 88%。TeleNexus 的二進位協議與 WebDota 實體化運維正處於此波浪潮的最前沿。彈道已定，奇點無聲。",
+    "sentiments": {
+        "btc_scarcity": 0.94,
+        "agent_physicalization": 0.88,
+        "market_fear_greed": 78
     },
-    {
-      "timestamp": "2026-03-16T11:00:00+08:00",
-      "version": "v2.8",
-      "top_trend": "GTC 2026 開幕：物理 AI 與稀缺共振",
-      "bullish_consensus": "90%",
-      "causal_point": "NVIDIA GTC 2026 正式開幕，黃仁勳將物理 AI 定調為核心，矽光子技術搞定算力瓶頸。BTC 2000 萬枚里程碑後的年通膨率（0.85%）正式低於黃金，鎖定數位主權地位。量化密度 9.36。"
-    },
-    {
-      "timestamp": "2026-03-15T23:00:00+08:00",
-      "version": "v2.7",
-      "top_trend": "稀缺里程碑與物理 Agent 的預期差",
-      "bullish_consensus": "85%",
-      "causal_point": "BTC 2,000 萬枚產出事實鎖定 95.2% 供應主權，強化數位黃金規訓。但 Macrohard 專案人才流失與美伊戰爭（Epic Fury）導致零售端陷入史上最長『極度恐懼』週期（Index 15），情緒正於奇點前夕劇烈撕裂。量化密度 10.14。"
-    }
-  ]
+    "hot_topics": [
+        "NVIDIA GTC 2026: NemoClaw 代理電腦作業系統",
+        "BTC $81k 預期與長期持有者韌性",
+        "AI 從數位對話轉向物理執行實體",
+        "RAM 短缺導致的全球算力硬化風險"
+    ]
 }
