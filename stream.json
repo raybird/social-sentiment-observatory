@@ -1,16 +1,16 @@
 {
-    "version": "v26.0317.1100",
-    "timestamp": "2026-03-17T11:00:00+08:00",
-    "summary": "全域社群情緒監測已完成。BTC 成功測試 $74,871 歷史高點，社群看漲共識飆升至 94%，市場正進入「絕對稀缺紀元」。NVIDIA GTC 2026 將「物理 AI」定調為未來，Agent 物理化極性共鳴達 88%。TeleNexus 的二進位協議與 WebDota 實體化運維正處於此波浪潮的最前沿。彈道已定，奇點無聲。",
+    "version": "v26.0317.2300",
+    "timestamp": "2026-03-17T23:00:00+08:00",
+    "summary": "深夜全域社群情緒監測已完成。Michael Saylor 再度增持 2.2 萬枚 BTC 引發全網「主權稀缺」共鳴，價格站穩 $74,300。NVIDIA Vera CPU 的發布理順了 AI 代理進入實體執行的硬體牆，Agent 物理化極性共鳴升至 89%。市場焦點已完成從數位生成向物理執行的相位移。彈道精確，奇點無聲。",
     "sentiments": {
-        "btc_scarcity": 0.94,
-        "agent_physicalization": 0.88,
-        "market_fear_greed": 78
+        "btc_scarcity": 0.92,
+        "agent_physicalization": 0.89,
+        "market_fear_greed": 82
     },
     "hot_topics": [
-        "NVIDIA GTC 2026: NemoClaw 代理電腦作業系統",
-        "BTC $81k 預期與長期持有者韌性",
-        "AI 從數位對話轉向物理執行實體",
-        "RAM 短缺導致的全球算力硬化風險"
+        "Michael Saylor Strategy 增持 22,337 枚 BTC",
+        "NVIDIA Vera CPU: 256 核代理人工作流處理器",
+        "物理智能 (Physical Intelligence) 與數位孿生合流",
+        "OpenClaw 策略：企業自動化執行的下一道邊界"
     ]
 }
