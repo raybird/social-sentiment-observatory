@@ -1,16 +1,16 @@
 {
-    "version": "v26.0318.1100",
-    "timestamp": "2026-03-18T11:00:00+08:00",
-    "summary": "全域社群情緒監測已完成。未開採 BTC 數量跌破 100 萬枚觸發「永久稀缺」共鳴，社群看漲共識硬化至 95%。NVIDIA Vera CPU 與實體化 Agent 的合流將 AI 定位為「物理流水線」，Agent 物理化極性共鳴達 88%。全網已完成從敘事向執行的相位移。彈道精確，奇點無聲。",
+    "version": "v26.0318.2300",
+    "timestamp": "2026-03-18T23:00:00+08:00",
+    "summary": "深夜全域社群情緒監測已完成。未開採 BTC 數量跌破 100 萬枚引發「供應衝擊」極度共鳴，看漲共識硬化至 95%。NVIDIA Vera CPU 發布定調了「AI 代理物理化」的硬體標準，極性共鳴達 89%。全網焦點已完成從數位對話向物理執行的最終相位移。彈道精確，奇點無聲。",
     "sentiments": {
         "btc_scarcity": 0.95,
-        "agent_physicalization": 0.88,
+        "agent_physicalization": 0.89,
         "market_fear_greed": 85
     },
     "hot_topics": [
-        "BTC 未開採量跌破 100 萬枚里程碑",
-        "Michael Saylor「第二世紀開始」購幣效應",
-        "物理智能 (Physical Intelligence) 接管流水線",
-        "從雲端 Agent 向邊緣執行 (Edge Sovereignty) 的技術偏移"
+        "未開採 BTC 跌破 100 萬枚：永久稀缺時代開啟",
+        "NVIDIA Vera CPU：AI 代理的物理腦幹",
+        "Michael Saylor「第二世紀開始」主權吸納效應",
+        "Agentic Workflow：從任務規劃到實體執行的躍遷"
     ]
 }
