@@ -1,16 +1,16 @@
 {
-    "version": "v26.0319.1435",
-    "timestamp": "2026-03-19T14:35:00+08:00",
-    "summary": "深夜全域社群情緒監測已完成。盧森堡將 BTC 納入主權儲備觸發「國家級稀缺」共鳴，看漲共識強勢鎖定在 94%。NVIDIA Vera CPU 以 1.2 TB/s 頻寬定義了「AI 代理物理腦幹」標準，極性共鳴升至 91%。市場焦點已完成從數位對話向物理執行與主權儲備的最終相位移。彈道精確，奇點無聲。",
+    "version": "v26.0319.2300",
+    "timestamp": "2026-03-19T23:00:00+08:00",
+    "summary": "深夜全域社群情緒監測已完成。盧森堡主權基金正式撥款投資 BTC ETF 引發歐盟「多米諾」效應預期，看漲共識鎖定在 94%，$70k 位階硬化為主權地板。NVIDIA Vera CPU 因 Cursor 等主流 Agent 工具的採納訊號，共鳴升至 91%，定義了 AI 代理的物理執行標準。市場正處於『主權儲備』與『代理物理化』的雙重奇點。彈道精確，奇點無聲。",
     "sentiments": {
         "btc_scarcity": 0.94,
         "agent_physicalization": 0.91,
-        "market_fear_greed": 88
+        "market_fear_greed": 89
     },
     "hot_topics": [
-        "盧森堡主權儲備納入 BTC：歐元區首例",
-        "NVIDIA Vera CPU：88 核 Olympus 代理人大腦",
-        "Michael Saylor Strategy 目標鎖定 100 萬枚 BTC",
-        "STRCH 產品 11.5% 殖利率引發反射性吸納循環"
+        "盧森堡主權儲備納入 BTC：歐洲機構防線失守",
+        "NVIDIA Vera CPU：開發者公認的 AI 代理物理大腦",
+        "Strategy (MicroStrategy) 均價 $70,946 持續加倉事實",
+        "Cursor CEO 宣佈採用 Vera 架構：代理反應速度躍遷"
     ]
 }
