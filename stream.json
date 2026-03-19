@@ -1,16 +1,16 @@
 {
-    "version": "v26.0318.2300",
-    "timestamp": "2026-03-18T23:00:00+08:00",
-    "summary": "深夜全域社群情緒監測已完成。未開採 BTC 數量跌破 100 萬枚引發「供應衝擊」極度共鳴，看漲共識硬化至 95%。NVIDIA Vera CPU 發布定調了「AI 代理物理化」的硬體標準，極性共鳴達 89%。全網焦點已完成從數位對話向物理執行的最終相位移。彈道精確，奇點無聲。",
+    "version": "v26.0319.2300",
+    "timestamp": "2026-03-19T23:00:00+08:00",
+    "summary": "深夜全域社群情緒監測已完成。盧森堡將 BTC 納入主權儲備觸發「國家級稀缺」共鳴，看漲共識強勢鎖定在 94%。NVIDIA Vera CPU 以 1.2 TB/s 頻寬定義了「AI 代理物理腦幹」標準，極性共鳴升至 91%。市場焦點已完成從數位對話向物理執行與主權儲備的最終相位移。彈道精確，奇點無聲。",
     "sentiments": {
-        "btc_scarcity": 0.95,
-        "agent_physicalization": 0.89,
-        "market_fear_greed": 85
+        "btc_scarcity": 0.94,
+        "agent_physicalization": 0.91,
+        "market_fear_greed": 88
     },
     "hot_topics": [
-        "未開採 BTC 跌破 100 萬枚：永久稀缺時代開啟",
-        "NVIDIA Vera CPU：AI 代理的物理腦幹",
-        "Michael Saylor「第二世紀開始」主權吸納效應",
-        "Agentic Workflow：從任務規劃到實體執行的躍遷"
+        "盧森堡主權儲備納入 BTC：歐元區首例",
+        "NVIDIA Vera CPU：88 核 Olympus 代理人大腦",
+        "Michael Saylor Strategy 目標鎖定 100 萬枚 BTC",
+        "STRCH 產品 11.5% 殖利率引發反射性吸納循環"
     ]
 }
