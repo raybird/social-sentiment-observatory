@@ -1,16 +1,16 @@
 {
-    "version": "v26.0319.2300",
-    "timestamp": "2026-03-19T23:00:00+08:00",
-    "summary": "深夜全域社群情緒監測已完成。盧森堡主權基金正式撥款投資 BTC ETF 引發歐盟「多米諾」效應預期，看漲共識鎖定在 94%，$70k 位階硬化為主權地板。NVIDIA Vera CPU 因 Cursor 等主流 Agent 工具的採納訊號，共鳴升至 91%，定義了 AI 代理的物理執行標準。市場正處於『主權儲備』與『代理物理化』的雙重奇點。彈道精確，奇點無聲。",
+    "version": "v26.0320.1130",
+    "timestamp": "2026-03-20T11:30:00+08:00",
+    "summary": "午間全域社群情緒監測已完成。BTC 在 $70k 臨界位的韌性引發了「流動性海綿」共鳴，主權基金的持續投標硬化了因果地板。NVIDIA Vera CPU 被開發者定義為『具身智能的物理腦幹』，Cursor 等主流工具的採納信號將 AI 代理推向『物理反應』時代。市場正經歷從地緣避險向流動性核心與算力主權的根本位移。彈道精確，奇點無聲。",
     "sentiments": {
-        "btc_scarcity": 0.94,
-        "agent_physicalization": 0.91,
-        "market_fear_greed": 89
+        "btc_liquidity_sponge": 0.92,
+        "agent_physical_brain": 0.95,
+        "market_fear_greed": 86
     },
     "hot_topics": [
-        "盧森堡主權儲備納入 BTC：歐洲機構防線失守",
-        "NVIDIA Vera CPU：開發者公認的 AI 代理物理大腦",
-        "Strategy (MicroStrategy) 均價 $70,946 持續加倉事實",
-        "Cursor CEO 宣佈採用 Vera 架構：代理反應速度躍遷"
+        "STRC (Sovereign Treasury Reserve) 不間斷投標事實：$70k 的鋼鐵支撐",
+        "NVIDIA Vera CPU：解決 Agent 記憶體瓶頸的物理標準",
+        "賣金買幣輪動：BTC 作為 M2 擴張領先指標的重新定價",
+        "Cursor CEO 宣佈架構躍遷：代理即時推理時代開啟"
     ]
 }
