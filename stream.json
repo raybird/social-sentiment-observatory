@@ -1,16 +1,18 @@
 {
-    "version": "v26.0320.1130",
-    "timestamp": "2026-03-20T11:30:00+08:00",
-    "summary": "午間全域社群情緒監測已完成。BTC 在 $70k 臨界位的韌性引發了「流動性海綿」共鳴，主權基金的持續投標硬化了因果地板。NVIDIA Vera CPU 被開發者定義為『具身智能的物理腦幹』，Cursor 等主流工具的採納信號將 AI 代理推向『物理反應』時代。市場正經歷從地緣避險向流動性核心與算力主權的根本位移。彈道精確，奇點無聲。",
+    "version": "v26.0320.2330",
+    "timestamp": "2026-03-20T23:30:00+08:00",
+    "summary": "深夜全域情緒監測完成。BTC 稀缺紀元因『國家級 TWAP』事實硬化，看漲共鳴鎖定在 96%，$70k 位階轉化為物理主權地板。NVIDIA Vera CPU 被開發者譽為具身智能的『腦幹』，但在 YouTube 引發了關於 DLSS 5 神經渲染的恐怖谷焦慮。SEC Atkins 新規釋放了 Discord 技術社群的合規壓力。市場正處於法律解封與物理硬化的奇點。彈道精確，奇點無聲。",
     "sentiments": {
-        "btc_liquidity_sponge": 0.92,
-        "agent_physical_brain": 0.95,
-        "market_fear_greed": 86
+        "btc_sovereign_scarcity": 0.96,
+        "agent_physical_brain": 0.91,
+        "regulatory_relief": 0.88,
+        "market_fear_greed": 91
     },
     "hot_topics": [
-        "STRC (Sovereign Treasury Reserve) 不間斷投標事實：$70k 的鋼鐵支撐",
-        "NVIDIA Vera CPU：解決 Agent 記憶體瓶頸的物理標準",
-        "賣金買幣輪動：BTC 作為 M2 擴張領先指標的重新定價",
-        "Cursor CEO 宣佈架構躍遷：代理即時推理時代開啟"
+        "盧森堡主權儲備多米諾：歐元區國家級軍備競賽啟動",
+        "NVIDIA Vera CPU：5.5x 延遲降低定義物理 AI 腦幹標準",
+        "STRC 11.5% 殖利率：比特幣證券化層的重力吸納",
+        "DLSS 5 恐怖谷：具身代理過於真實引發的社會心理反彈",
+        "Atkins 四大分類新規：終結執法規訓，開啟創新主權"
     ]
 }
