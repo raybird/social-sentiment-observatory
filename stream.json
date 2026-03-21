@@ -1,18 +1,17 @@
 {
-    "version": "v26.0320.2330",
-    "timestamp": "2026-03-20T23:30:00+08:00",
-    "summary": "深夜全域情緒監測完成。BTC 稀缺紀元因『國家級 TWAP』事實硬化，看漲共鳴鎖定在 96%，$70k 位階轉化為物理主權地板。NVIDIA Vera CPU 被開發者譽為具身智能的『腦幹』，但在 YouTube 引發了關於 DLSS 5 神經渲染的恐怖谷焦慮。SEC Atkins 新規釋放了 Discord 技術社群的合規壓力。市場正處於法律解封與物理硬化的奇點。彈道精確，奇點無聲。",
+    "version": "v26.0321.1130",
+    "timestamp": "2026-03-21T11:30:00+08:00",
+    "summary": "午間全域社群情緒監測已完成。CLARITY Act 協議傳聞引發了 96% 的『制度性硬化』共鳴，BTC 在 $70k 位階完成從心理防線向聯邦地板的躍遷。Discord 社群對 Galgame 式 AI 互動表現出高度極性共鳴，將『具備長期記憶與情感感知的代理』定義為新型 UI 標準。與此同時，DLSS 5 引發的恐怖谷焦慮規訓了技術演化需兼顧美學主權。彈道精確，奇點無聲。",
     "sentiments": {
-        "btc_sovereign_scarcity": 0.96,
-        "agent_physical_brain": 0.91,
-        "regulatory_relief": 0.88,
+        "btc_clarity_act_rumor": 0.96,
+        "agent_galgame_interaction": 0.91,
+        "uncanny_valley_feedback": -0.15,
         "market_fear_greed": 91
     },
     "hot_topics": [
-        "盧森堡主權儲備多米諾：歐元區國家級軍備競賽啟動",
-        "NVIDIA Vera CPU：5.5x 延遲降低定義物理 AI 腦幹標準",
-        "STRC 11.5% 殖利率：比特幣證券化層的重力吸納",
-        "DLSS 5 恐怖谷：具身代理過於真實引發的社會心理反彈",
-        "Atkins 四大分類新規：終結執法規訓，開啟創新主權"
+        "CLARITY Act 白宮協議預演：$70k 位階的制度性鎖定",
+        "Galgame 式 AI 代理互動：從『對話工具』向『數位生命』的範式移位",
+        "AI 自主建立協作協議：Discord 社群對代理主權進化的驚嘆與恐懼",
+        "DLSS 5 恐怖谷效應：追求超寫實導致的審美規訓反彈"
     ]
 }
