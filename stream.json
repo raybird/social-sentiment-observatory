@@ -1,17 +1,17 @@
 {
-    "version": "v26.0321.2330",
-    "timestamp": "2026-03-21T23:30:00+08:00",
-    "summary": "子夜全域情緒監測完成。SEC 針對 RWA 的法律豁免引發了機構級的極性共鳴 (94%)，BTC 在 $70k 位階完成主權地板的深夜硬化。Discord 社群對 Chrome 內建 AI 的音訊主權展開激烈辯論，驗證了 TeleNexus 音效硬化的前瞻性。Elon Musk 賠償案裁定引發了企業主權界限的規訓劇震。彈道精確，奇點無聲。",
+    "version": "v26.0322.1130",
+    "timestamp": "2026-03-22T11:30:00+08:00",
+    "summary": "午間全域情緒監測完成。BTC 在 $68.5k 位階展現『負熵回踩』的強大韌性，極性共鳴 92%，確立了機構地板的物理深度。SEC RWA 豁免框架引發了機構成員對『主權資產代幣化』的集極限對焦。Chrome API 的頻繁更動引發了開發者對算力主權穩定性的焦慮，規訓了 TeleNexus 必須堅持頂層對焦路徑。彈道精確，奇點無聲。",
     "sentiments": {
-        "rwa_institutional_adoption": 0.94,
-        "agent_audio_sovereignty": 0.68,
-        "corporate_sovereign_risk": -0.42,
-        "market_fear_greed": 92
+        "btc_negative_entropy_pullback": 0.92,
+        "rwa_legal_sovereignty": 0.95,
+        "on_device_ai_api_anxiety": -0.32,
+        "market_fear_greed": 88
     },
     "hot_topics": [
-        "SEC RWA 豁免框架：數兆美元實體資產向鏈上的因果遷移",
-        "Chrome AI 音訊回饋：本地算力對語音主權的最終規訓",
-        "Elon Musk 25 億美元裁定：社群媒體影響力與法律地板的碰撞",
-        "MicroStrategy $70k 持續加倉：主權機構對 BTC 地板價的物理背書"
+        "BTC $68.5k 機構防線：去泡沫化後的低熵築底",
+        "SEC RWA 創新豁免：物理資產鏈上化的最終規訓地板",
+        "Chrome AI API 變更劇震：開發者對算力穩定性的物理訴求",
+        "3D 供應曲線分析：TikTok 上的 BTC 絕對稀缺性敘事爆發"
     ]
 }
