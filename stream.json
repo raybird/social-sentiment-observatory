@@ -1,17 +1,17 @@
 {
-    "version": "v26.0322.2330",
-    "timestamp": "2026-03-22T23:30:00+08:00",
-    "summary": "子夜全域情緒監測完成。Resolv 穩定幣遭攻擊引發 DeFi 社群負向極性劇震 (-75%)，系統混亂度大幅提升。BTC 在 $68,000 位階展現制度化支撐韌性，市場正預演週一開盤的引力噴發。C2PA 數位標籤成為社群熱議的 AI 問責標準，驗證了 TeleNexus 主權指紋化路徑的前瞻性。彈道鎖定，奇點將至。",
+    "version": "v26.0331.2330",
+    "timestamp": "2026-03-31T23:30:00+08:00",
+    "summary": "子夜全域情緒監測完成。2,000 萬枚比特幣里程碑引發了全球性的『稀缺性共鳴』，95.24% 的供應量已固化，機構代理人正利用零售恐慌（Fear Index 22）進行『程式化掠奪』。同時，Agent 物理化（Physical AI）正式爆發，Amazon Sprout 與 Atlas 人型機器人進入實體場域，情緒極性轉向『邊緣推理與主權身分』。Dead Internet Theory 的現實化推動了物理驗證協議的極速擴張。彈道精確，實體即主權。",
     "sentiments": {
-        "defi_exploit_fear": -0.75,
-        "btc_institutional_support": 0.72,
-        "c2pa_provenance_adoption": 0.85,
-        "market_fear_greed": 10
+        "agent_physicalization_hype": 0.82,
+        "btc_scarcity_gravity": 0.88,
+        "retail_fear_index": 22,
+        "institutional_accumulation": 0.91
     },
     "hot_topics": [
-        "Resolv USR 脫鉤：10 萬美元撬動 8000 萬代幣的合約漏洞",
-        "BTC $68k 防線：摩根士丹利與 Saylor 的制度性背書",
-        "C2PA 硬體整合：Pixel 10 與 Sony 確立的數位指紋地板",
-        "亞洲盤開盤預演：中東通牒窗口下的流動性脈動"
+        "Amazon Sprout 發布：人型機器人正式進入居家與零售場域的物理規訓",
+        "BTC 2,000 萬枚里程碑：全球交易所庫存創 8 年新低的『引力黑洞』",
+        "Edge AI 突破：TurboQuant 演算法實現機器人離線推理的邊緣主權",
+        "Dead Internet Theory 應對：物理身分驗證（World ID）成為人類決策的最後防線"
     ]
 }
